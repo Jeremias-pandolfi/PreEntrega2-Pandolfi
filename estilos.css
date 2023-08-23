@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Courgette&family=Josefin+Sans:ital@1&family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,300&family=Unbounded&family=Ysabeau+Office:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header_inicio{
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 1fr;
+    background-color: blue;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.navbar-brand img{
+    height: 40px;
+    
+}
+ul li a:hover{
+    color: rgb(148, 51, 240) !important;
+}
+
+main{
+    height: 400px;
+    max-width: 100%;
+    background-image: url(img/DELMA\ VIDRIERA.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(39, 72, 239, 0.898);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    align-items: center;
+
+}
+.container{
+    background-color: rgba(220, 220, 220, 0.536);
+    text-align: center;
+    border: solid black 1px;
+    
+}
+.container:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.titulo-contenedor{
+    font-family: 'Changa One', cursive;
+    font-size:26px;
+    text-shadow: 2px white;
+}
+.titulo-contenedor:hover{
+    color: rgba(31, 31, 209, 0.878);
+    transform:scale(1.1) ;
+}
+
+.parrafo-contenedor{
+    font-size: large;
+
+}
+.footer-fluid{
+    background-color: rgba(23, 18, 18, 0.898);
+    
+
+}
+.contenedor_mapa{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    
+}
+
+iframe{
+    align-self: center;
+    justify-self: center;
+    border: 1px 2px black;
+
+}
+iframe:hover{
+    transition: 1.1s;
+    border-radius: 80%;
+}
+
+.icono-grande{
+    font-size: 20px;
+    color: aliceblue;
+    padding: auto;
+}
+
+
+/* .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+.contactanos a{
+    text-decoration: none;
+    color:beige;
+    padding-left: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+} */
+.fa-whatsapp{
+    color: rgb(30, 215, 30) !important;
+}
+.fa-facebook{
+    color: rgb(24, 24, 233);
+}
+.fa-instagram{
+    color: rgb(237, 46, 46);
+    
+}
+.fa-brands:hover{
+    font-size: x-large !important;
+    transition: 0.2ms;
+
+}
+
+
+.contactos{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100%;
+    justify-items: center;
+    
+    
+}
+
+.lista-contactos{
+  display: flex;
+  flex-direction: column;
+  
+  
+ 
+  
+}
+
+li {
+    list-style: none;
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    
+
+}
+@media  (min-width:320px) and (max-width: 480px){
+    li a{ text-decoration: none;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+
+    }
+}
+@media (min-width: 480px) and (max-width: 720px){
+    li a{ text-decoration: none;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+    }
+}
+@media (min-width: 720px) and (max-width:1370px){
+    li a{ text-decoration: none;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 22px;
+    }
+}
+
+
+.p-footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.logo-copy{
+    padding-bottom: 4px;
+    padding-right: 2px;
+}
+
+/* inicio css bicicletas.html */
+
+.shop-container{
+    background-color:lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.item{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.item:hover{
+    transition: 1.1s;
+    transform: scale(0.9);
+}
+.item img{
+    width: 250px;
+    height: 300px;
+}
